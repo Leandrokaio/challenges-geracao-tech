@@ -1,0 +1,115 @@
+:root{
+    --primary-nav-footer-color: #8F0177;
+    --second-color-section: #8f45af;
+    --primary-title-nav-color: #ffff;
+    --primary-title-section: #8F0177;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-header{
+    background-color: var(--primary-nav-footer-color);
+    text-align: center;
+    padding: .5rem;
+    color: var(--primary-title-nav-color);
+}
+
+.first-section{
+    background-color: var(--second-color-section);
+    min-height: 60vh;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 3rem;
+    min-height: 100vh;
+    max-width: 1000px;
+}
+
+/* .title-main::after{
+    position: absolute;
+    content: '';
+    width: 15%;
+    height: 2px;
+    background-color: var(--primary-nav-footer-color);
+    border-radius: 10px;
+    bottom: 0;
+    
+    
+} */
+
+.container-main-title{
+    margin-top: 2rem;
+}
+
+.loren-main{
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.title-main{
+    position: relative;
+    text-align: center;
+    color: var(--primary-nav-footer-color);
+    margin-bottom: 2.5rem;
+    padding: 10px;
+}
+
+.team-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.cards-container .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
+
+.title-card{
+    color: var(--primary-title-section);
+    font-size: 1.5rem;
+}
+
+.description-card{
+    color: var(--primary-title-section);
+    font-weight: 500;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: var(--second-color-section);
+    border-radius: 100%;
+}
+
+
+.footer-style{
+    background-color: var(--primary-nav-footer-color);
+    padding: .8rem;
+    text-align: center;
+    color: var(--primary-title-nav-color);
+    font-weight: 500;
+}
+
+
+
+
